@@ -12,14 +12,13 @@
         textarea {
             display: block;
             width: 100%;
-            height: 10vh;
-            margin: 2rem;
+            height: 15vh;
             padding: 1rem;
         }
 
         #output {
             border: 1px solid black;
-            height: 10vh;
+            height: 15vh;
             display: block;
             width: 100%;
             margin-bottom: 15rem;
@@ -37,15 +36,15 @@
     </nav>
 
     <main>
-        <textarea id="txt-input" placeholder="put your text here and speak like Yoda"> </textarea>
+        <textarea id="txt-input" style="line-height: 1.4;" placeholder="put your text here and speak like Yoda.."></textarea>
         <button id="btn-translate">Click to Translate</button>
 
-        <div id="output"></div>
+        <div class="container-center outputBox" id="output"></div>
     </main>
 
     <footer>
-        <div>about:</div>
-        <p>Convert from English to Yoda's language. Yoda is a fictional character in the Star Wars universe. He is a small, green humanoid alien who is powerful with the Force and served as Grandmaster of the Jedi Order.</p>
+        <div style="font-size: x-large; padding-bottom: 2rem;">about:</div>
+        <p class="container-center" style="font-size: large;line-height: 1.4rem;">Convert text from English to Yoda's language. Yoda is a fictional character in the Star Wars universe. He is a small, green humanoid alien who is powerful with the Force and served as Grandmaster of the Jedi Order.</p>
     </footer>
 
     <script src="app.js" text="text/javascript"></script>
