@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoda Translate</title>
+    <link href="styles.css" rel="stylesheet" />
+
+    <style>
+
+        textarea {
+            display: block;
+            width: 100%;
+            height: 10vh;
+            margin: 2rem;
+            padding: 1rem;
+        }
+
+        #output {
+            border: 1px solid black;
+            height: 10vh;
+            display: block;
+            width: 100%;
+            margin-bottom: 15rem;
+            padding: 1rem;
+            box-sizing: border-box;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <nav>
+        <div>Speak like Master Yoda</div>
+    </nav>
+
+    <main>
+        <textarea id="txt-input" placeholder="put your text here and speak like Yoda"> </textarea>
+        <button id="btn-translate">Click to Translate</button>
+
+        <div id="output"></div>
+    </main>
+
+    <footer>
+        <div>about:</div>
+        <p>Convert from English to Yoda's language. Yoda is a fictional character in the Star Wars universe. He is a small, green humanoid alien who is powerful with the Force and served as Grandmaster of the Jedi Order.</p>
+    </footer>
+
+    <script src="app.js" text="text/javascript"></script>
+</body>
+</html>
